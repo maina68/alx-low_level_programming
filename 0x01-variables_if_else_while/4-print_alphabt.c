@@ -1,0 +1,22 @@
+#include <stio.h>
+#include <stdlib.h>
+
+/**
+ *  main - Entry point
+ *  Return: Always (0) (Success)
+ */
+int main(void)
+{
+	char ch = 'a';
+
+	while (ch <= 'z')
+	{
+		if ((ch != 'e') && (ch != 'q'))
+		{
+			putschar(ch);
+		}
+		ch++;
+	}
+	putschar('\n');
+	return (0);
+}
