@@ -1,20 +1,21 @@
-#include <stdio.h>
+#include 'main.h'
 
 /**
- * main - Entry point
+ * main main function
  *
- * Return: Always (0) (Success)
+ * Return 0 on success
  */
 int main(void)
 {
-	char ch = "maina";
-
-	while (ch)
-	{
-		_putchar(ch);
-		ch++;
-	}
-	_putchar('\n');
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
 
 	return (0);
 }
