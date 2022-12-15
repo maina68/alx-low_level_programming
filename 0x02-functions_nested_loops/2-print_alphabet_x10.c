@@ -5,7 +5,7 @@
  *
  * Returns: nothing on success
  */
-print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 	int start = 97, end = 122, count = 1;
 
