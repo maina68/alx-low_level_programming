@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _strcat - appends the src string to the dest string
- * dest: input value
- * src: input value
+ * @dest: input value
+ * @src: input value
  * Return: pointer to the resulting string dest
  */
 
@@ -23,7 +23,7 @@ char *_strcat(char *dest, char *src)
 		i++;
 		j++;
 	}
-	
+
 	dest[i] = '\0';
 	return (dest);
 }
