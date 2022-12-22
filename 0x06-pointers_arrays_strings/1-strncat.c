@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * _strncat - appends the src string onto the dest string
- * using n bytes from src and src does not need to be
- * null-terminated if it contains n or more bytes
+ * _strncat - concatenates two strings
+ * using at most n bytes from src
  * @dest: input value
  * @src:input value
  * @n: input value
